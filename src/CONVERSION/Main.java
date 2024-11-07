@@ -10,7 +10,7 @@ public class Main {
         con_val2 = (double) (val2);
         resultado2 = con_val2;
 
-        System.out.println("El resultado es:" + resultado2);
+        System.out.println("El resultado  es:" + resultado2);
 
 
         double val1 = 8;
