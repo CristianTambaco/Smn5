@@ -9,15 +9,14 @@ public class Main {
 
         Scanner ingreso =new Scanner(System.in);
 
-        String val1;
-        //double val1;
-        int resultado, con_val1;                    //conversion valor 1
+        String val1;       //cadena val1
+        double resultado, con_val1;           //a double         //conversion valor 1
 
 
         System.out.println("Ingrese un valor a multiplicar: ");
             val1 = ingreso.nextLine();
-            con_val1= Integer.parseInt(val1);      //linea de conversion
-            resultado=con_val1*2;
+            con_val1= Double.parseDouble(val1);      //linea de conversion
+            resultado=con_val1*2;    //calculo
 
             System.out.println("El resultado es: "+ resultado);
 
